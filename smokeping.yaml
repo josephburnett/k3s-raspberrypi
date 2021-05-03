@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: smokeping
-        image: dperson/smokeping
+        image: josephburnett/smokeping
         args: ["-w", "-t", "Home;google;www.google.com"]
         ports:
         - containerPort: 80
